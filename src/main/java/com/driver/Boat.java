@@ -11,4 +11,8 @@ public class Boat implements WaterVehicle{
     public int getVehicleCapacity() {
         return 50;
     }
+
+    public Boat() {
+    }
+    Boat boat=new Boat();
 }
